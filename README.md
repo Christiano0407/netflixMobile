@@ -2,7 +2,7 @@
 Project Netflix Mobile 
 
 ## Reto del curso con Leonidas Esteban
-**Diseñado con 💗 por [leonidasesteban.com](https://leonidasesteban.com/)**
+**Tomando como referencia: [leonidasesteban.com](https://leonidasesteban.com/)**
 
 Puedes encontrar el diseño, en el siguiente [archivo de figma](https://www.figma.com/file/I5GfzHndh0ypq0wFHpnjoQ/Netflix-Mobile?node-id=15%3A164).
 
