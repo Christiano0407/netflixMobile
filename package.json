@@ -1,0 +1,26 @@
+{
+  "name": "netflixweb",
+  "version": "1.0.0",
+  "description": "project netflix mobile",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/netflixMobile.git"
+  },
+  "keywords": [
+    "Javascript",
+    "HTML",
+    "CSS",
+    "Challenge",
+    "Mobile"
+  ],
+  "author": "Chris04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/netflixMobile/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/netflixMobile#readme"
+}
