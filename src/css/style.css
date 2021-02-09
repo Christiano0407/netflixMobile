@@ -27,7 +27,7 @@ body {
 }
 /*header*/
 .header {
-    border: 1px solid purple;
+   /*  border: 1px solid purple; */
     padding: 1.5rem 1.5rem 10rem;
     position: relative;
     z-index: 2;
@@ -36,7 +36,7 @@ body {
 .navigation {
     padding: 0;
     margin: 0;
-    border: 1px solid green;
+   /*  border: 1px solid green; */
     display: grid;
     grid-template-columns: 100px;
     grid-auto-flow: column;
@@ -45,7 +45,7 @@ body {
 .navigation-item {
     list-style: none;
     text-align: center;
-    border: 1px solid red;
+   /*  border: 1px solid red; */
 }
 /*Featured*/
 .featured {
@@ -54,7 +54,7 @@ body {
     overflow: hidden;
 }
 .featured-details {
-    border: 1px solid yellow;
+   /*  border: 1px solid yellow; */
     position: absolute;
     bottom: 0;
     left: 0;
@@ -133,8 +133,13 @@ body {
 }
 .list-content {
     white-space: nowrap;
-    overflow-x: auto;
+    /* overflow-x: auto; */
+    overflow-x:hidden;
+    /* overflow: hidden; */
 }
+/* .list-content::-webkit-scrollbar {
+    display: none;
+} */
 .list-item {
     display: inline-block;
     margin-left: 10px;
@@ -149,3 +154,44 @@ main {
 }
 
 /*footer*/
+.footer {
+ position: sticky;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: black;
+ padding: 1rem 0 0;
+}
+.tab-list {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    color: #6e6e6e;
+    padding-bottom: 1rem;
+}
+.tab-list a {
+    color: #6e6e6e;
+}
+.tab-item {
+    text-align: center;
+    font-size: .9rem;
+   /*  border: 1px solid red; */
+}
+.tab-item svg {
+    display: block;
+    margin: auto;
+   /*  border: 1px solid greenyellow; */
+}
+.tab-item path {
+    fill: #6e6e6e;
+}
+/*  .tab-item:hover path, .tab-item:hover span{
+  color: red;
+  fill: red;
+}  */
+.tab-item:hover :is(path, span) {
+    fill: white;
+    color: white;
+}
